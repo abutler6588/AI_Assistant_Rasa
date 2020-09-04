@@ -7,7 +7,7 @@ NLU Training Data
 
 Sample Format 
 =========================
-## itnent: <intent_name>
+## itnent: < intent_name >
 - <list of utterances>
 - ....
 =========================
