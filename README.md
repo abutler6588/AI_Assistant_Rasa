@@ -22,3 +22,19 @@ Sample Format
 - never
 - I dont think so 
 - dont like that 
+
+Core Training Data 
+
+## resturantSearch_tellingLocation_tellignCusisine
+ - resturant_search
+  - utter_ask_location
+ - telling location
+  - action_set_location
+  - slot {"location": "Mumbai"}
+  - utter_affirm_location
+  - utter_ask_cuisine
+ - telling_cuisine{"cusisine": "italian"}
+  - slot {"cusisine" : "italian"}
+  - action_show_resturants
+ - affirm
+  - utter_goodybe
